@@ -1,0 +1,123 @@
+Please enter the main file's name:input4.txt
+age2.csv age
+Processing age table.
+Inserted (05000US12045,722,2523,2831) into age
+Inserted (05000US12047,651,2713,2211) into age
+Inserted (05000US21157,1625,6390,6547) into age
+Inserted (05000US27011,290,1057,1307) into age
+Inserted (05000US28001,1833,7091,5339) into age
+Inserted (05000US28021,526,1999,1381) into age
+Inserted (05000US38093,1238,4275,3706) into age
+Inserted (05000US31007,56,185,128) into age
+disability2.csv disability
+Processing disability table.
+Inserted ("Crenshaw County, Alabama",741,525,1037,1701,565,954) into disability
+Inserted ("Caldwell County, North Carolina",4315,3075,5623,9350,3004,5734) into disability
+Inserted ("Elkhart County, Indiana",7660,4914,10983,12739,5182,9119) into disability
+Inserted ("Lake of the Woods County, Minnesota",183,105,131,273,14,136) into disability
+Inserted ("Marathon County, Wisconsin",4962,2253,5304,6589,2840,5170) into disability
+Inserted ("Marinette County, Wisconsin",2163,1104,2181,3552,1137,2065) into disability
+Inserted ("Grundy County, Missouri",454,262,450,890,340,461) into disability
+Inserted ("Briscoe County, Texas",82,28,58,108,33,40) into disability
+Inserted ("Wilson County, Texas",1700,796,1904,2961,1140,1943) into disability
+Inserted ("Fayette County, Indiana",1423,1032,1448,2432,746,1384) into disability
+geog2.csv geography
+Processing geography table.
+Inserted (2063,"Hettinger County, North Dakota",nd,50,38,41,05000US38041,2639) into geography
+Inserted (2487,"Campbell County, Tennessee",tn,50,47,13,05000US47013,40008) into geography
+Inserted (1714,"Boyd County, Nebraska",ne,50,31,15,05000US31015,2006) into geography
+Inserted (836,"Warrick County, Indiana",in,50,18,173,05000US18173,61427) into geography
+Inserted (2419,"Brookings County, South Dakota",sd,50,46,11,05000US46011,33435) into geography
+Inserted (833,"Vigo County, Indiana",in,50,18,167,05000US18167,108099) into geography
+Inserted (2477,"Union County, South Dakota",sd,50,46,127,05000US46127,14842) into geography
+Inserted (1358,"St. Joseph County, Michigan",mi,50,26,149,05000US26149,60923) into geography
+Inserted (3081,"Pleasants County, West Virginia",wv,50,54,73,05000US54073,7612) into geography
+Inserted (2383,"Colleton County, South Carolina",sc,50,45,29,05000US45029,37884) into geography
+DISPLAY
+replan_id geo_name                                     geo_stusab geo_sumlev geo_state geo_county geo_geoid    population
+2383      Colleton County, South Carolina              sc         50         45        29         05000US45029 37884
+3081      Pleasants County, West Virginia              wv         50         54        73         05000US54073 7612
+1358      St. Joseph County, Michigan                  mi         50         26        149        05000US26149 60923
+2477      Union County, South Dakota                   sd         50         46        127        05000US46127 14842
+833       Vigo County, Indiana                         in         50         18        167        05000US18167 108099
+2419      Brookings County, South Dakota               sd         50         46        11         05000US46011 33435
+836       Warrick County, Indiana                      in         50         18        173        05000US18173 61427
+1714      Boyd County, Nebraska                        ne         50         31        15         05000US31015 2006
+2487      Campbell County, Tennessee                   tn         50         47        13         05000US47013 40008
+2063      Hettinger County, North Dakota               nd         50         38        41         05000US38041 2639
+
+geo_geoid    under_5 under_18 over_65
+05000US31007 56      185      128
+05000US38093 1238    4275     3706
+05000US28021 526     1999     1381
+05000US28001 1833    7091     5339
+05000US27011 290     1057     1307
+05000US21157 1625    6390     6547
+05000US12047 651     2713     2211
+05000US12045 722     2523     2831
+
+geo_name                                     hearing_disability vision_disability cognitive_disability ambulatory_disability self_care_disability independent_living_disability
+Fayette County, Indiana                      1423               1032              1448                 2432                  746                  1384
+Wilson County, Texas                         1700               796               1904                 2961                  1140                 1943
+Briscoe County, Texas                        82                 28                58                   108                   33                   40
+Grundy County, Missouri                      454                262               450                  890                   340                  461
+Marinette County, Wisconsin                  2163               1104              2181                 3552                  1137                 2065
+Marathon County, Wisconsin                   4962               2253              5304                 6589                  2840                 5170
+Lake of the Woods County, Minnesota          183                105               131                  273                   14                   136
+Elkhart County, Indiana                      7660               4914              10983                12739                 5182                 9119
+Caldwell County, North Carolina              4315               3075              5623                 9350                  3004                 5734
+Crenshaw County, Alabama                     741                525               1037                 1701                  565                  954
+
+Inserted ("Denton County, Texas",16545,9807,23123,28354,11400,19590) into disability
+Found (05000US12047,651,2713,2211) in age
+Updated (2419,"Brookings County, South Dakota",sd,50,46,11,05000US46011,5555) in geography
+Inserted (05000US34015,16193,66997,41176) into age
+Failed to update (05000US27012,100,100,100) in age
+Found entries:
+(2477,"Union County, South Dakota",sd,50,46,127,05000US46127,14842) in geography
+(2419,"Brookings County, South Dakota",sd,50,46,11,05000US46011,5555) in geography
+Failed to delete (*,"Pleasants County, Virginia",va,*,*,*,*,*) in geography
+Deleted ("Grundy County, Missouri",*,*,*,*,*,*)  in disability
+No entries match query ("Grundy County, Missouri",460,262,450,890,340,461) in disability
+Failed to insert (836,"Washington County, Indiana",in,50,18,173,05000US18173,61427) into geography
+Updated ("Lake of the Woods County, Minnesota",183,105,131,273,5,5) in disability
+Deleted entries:
+(05000US31007,56,185,128) in age
+(05000US38093,1238,4275,3706) in age
+(05000US28021,526,1999,1381) in age
+(05000US28001,1833,7091,5339) in age
+(05000US27011,290,1057,1307) in age
+(05000US21157,1625,6390,6547) in age
+(05000US12047,651,2713,2211) in age
+(05000US12045,722,2523,2831) in age
+(05000US34015,16193,66997,41176) in age
+DISPLAY
+replan_id geo_name                                     geo_stusab geo_sumlev geo_state geo_county geo_geoid    population
+2383      Colleton County, South Carolina              sc         50         45        29         05000US45029 37884
+3081      Pleasants County, West Virginia              wv         50         54        73         05000US54073 7612
+1358      St. Joseph County, Michigan                  mi         50         26        149        05000US26149 60923
+2477      Union County, South Dakota                   sd         50         46        127        05000US46127 14842
+833       Vigo County, Indiana                         in         50         18        167        05000US18167 108099
+2419      Brookings County, South Dakota               sd         50         46        11         05000US46011 5555
+836       Warrick County, Indiana                      in         50         18        173        05000US18173 61427
+1714      Boyd County, Nebraska                        ne         50         31        15         05000US31015 2006
+2487      Campbell County, Tennessee                   tn         50         47        13         05000US47013 40008
+2063      Hettinger County, North Dakota               nd         50         38        41         05000US38041 2639
+
+geo_geoid    under_5 under_18 over_65
+
+geo_name                                     hearing_disability vision_disability cognitive_disability ambulatory_disability self_care_disability independent_living_disability
+Denton County, Texas                         16545              9807              23123                28354                 11400                19590
+Fayette County, Indiana                      1423               1032              1448                 2432                  746                  1384
+Wilson County, Texas                         1700               796               1904                 2961                  1140                 1943
+Briscoe County, Texas                        82                 28                58                   108                   33                   40
+Marinette County, Wisconsin                  2163               1104              2181                 3552                  1137                 2065
+Marathon County, Wisconsin                   4962               2253              5304                 6589                  2840                 5170
+Lake of the Woods County, Minnesota          183                105               131                  273                   5                    5
+Elkhart County, Indiana                      7660               4914              10983                12739                 5182                 9119
+Caldwell County, North Carolina              4315               3075              5623                 9350                  3004                 5734
+Crenshaw County, Alabama                     741                525               1037                 1701                  565                  954
+
+WRITE
+Processing complete!
+

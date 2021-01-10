@@ -1,0 +1,5 @@
+geo_name                                     vision_disability	hearing_disability 
+Bibb County, Alabama			     507		575
+
+geo_geoid    	over_65
+05000US20063	655

@@ -1,0 +1,6 @@
+geog1.csv geography
+age1.csv age
+disability1.csv disability
+
+PROJECT(SELECT(("Bibb County, Alabama",*,*,*,*,*,*),disability),geo_name,vision_disability,hearing_disability)
+PROJECT(SELECT((05000US20063,166,599,655),age),geo_geoid,over_65)

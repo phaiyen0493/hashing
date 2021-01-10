@@ -1,0 +1,6 @@
+under_5 under_18
+651	2713
+
+geo_name                                     population 
+Warrick County, Indiana			     61427
+Vigo County, Indiana			     108099

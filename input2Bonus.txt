@@ -1,0 +1,6 @@
+age2.csv age
+geog2.csv geography
+disability2.csv disability
+
+PROJECT(SELECT((05000US12047,*,*,*),age),under_5,under_18)
+PROJECT(SELECT((*,*,in,*,*,*,*,*),geography),geo_name,population)
